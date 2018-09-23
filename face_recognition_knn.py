@@ -141,7 +141,7 @@ def draw_preds(img_path, preds):
         name = pred[0]
         # (top, right, bottom, left) => (left,top,right,bottom)
         draw.rectangle(((loc[3], loc[0]), (loc[1],loc[2])), outline="red")
-        draw.text((loc[3], loc[0] - 30), name)
+        #draw.text((loc[3], loc[0] - 30), name, font=ImageFont.truetype('Pillow/Tests/fonts/FreeMono.ttf', 30))
     source_img.show()
 
 if __name__ == "__main__":
