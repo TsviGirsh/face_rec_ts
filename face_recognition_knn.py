@@ -32,7 +32,7 @@ import pickle
 from PIL import Image, ImageFont, ImageDraw, ImageEnhance
 import face_recognition
 from face_recognition import face_locations
-from face_recognition.face_recognition_cl import image_files_in_folder
+from face_recognition.face_recognition_cli import image_files_in_folder
 
 ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg'}
 
